@@ -1,0 +1,150 @@
+.container {
+  width: 700px;
+  height: auto;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+  font-family: "Rajdhani", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .task-rows,
+  .tasks-display-heading {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    display: grid;
+    margin: 2px;
+    grid-template-columns: 320px 40px 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 432px) {
+  .container {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .task-rows,
+  .tasks-display-heading {
+    max-width: 350px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    display: grid;
+    margin: 2px;
+    grid-template-columns: 240px 60px 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.heads {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  border-bottom: 2px solid teal;
+}
+.inputTask {
+  height: 20px;
+  width: 150px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.submit {
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: darkgreen;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.delete-all {
+  font-size: 18px;
+  background-color: brown;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
+}
+.delete-all:active {
+  background-color: rgb(184, 72, 72);
+}
+p {
+  padding: 5px;
+  color: white;
+  background-color: darkcyan;
+  border-radius: 5%;
+  cursor: pointer;
+}
+p:active {
+  background-color: rgb(5, 93, 93);
+}
+.allParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 50px;
+}
+.tasks-display {
+  margin-top: 15px;
+}
+
+td:nth-child(2),
+td:nth-child(3) {
+  cursor: pointer;
+}
+
+.task-rows {
+  padding: 10px 0 10px 0;
+  width: 700px;
+  display: grid;
+  margin: 2px;
+  grid-template-columns: 70% 15% 15%;
+  background-color: rgb(230, 227, 213);
+  border-radius: 10px;
+}
+
+.completed-tasks {
+  text-decoration: line-through;
+}
+.tasks-in-span,
+.completed-tasks {
+  padding-left: 5%;
+}
+.tasks-display-heading {
+  margin-top: 15px;
+  padding: 2px 0 2px 0;
+  width: 700px;
+  display: grid;
+  margin: 2px;
+  grid-template-columns: 70% 15% 15%;
+  border-bottom: 1px solid teal;
+}
+/* span {
+  font-weight: bolder;
+  text-shadow: 1px 1px 0px teal;
+} */
+body {
+  background-color: #bdcdd6;
+}

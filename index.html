@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="allParent">
+      <h1>To Do List</h1>
+      <div class="container">
+        <input class="inputTask" type="enter your task" placeholder="enter your new task here" />
+        <button class="submit">Add Task</button>
+        <div class="heads">
+          <p class="all-tasks-click">All Tasks</p>
+          <p class="pending-click">Pending</p>
+          <p class="completed-click">Completed</p>
+          <button class="delete-all">Delete All</button>
+        </div>
+        <div class="tasks-display-heading">
+          <span style="padding-left: 5%">Tasks</span>
+          <span>Finished ?</span>
+          <span>Delete</span>
+        </div>
+        <table class="tasks-display"></table>
+        <div style="margin-top: 30px">developed by Ranjit T</div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
