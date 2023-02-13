@@ -166,9 +166,11 @@ allTasksClick.addEventListener("click", () => {
   tasksdisplay.innerHTML = "";
   callingAllTasks();
 });
+
 //
 // deleting all tasks
 //
+
 const deleteAll = document.querySelector(".delete-all");
 deleteAll.addEventListener("click", (e) => {
   e.preventDefault();
