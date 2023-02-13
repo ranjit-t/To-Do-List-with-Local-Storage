@@ -134,7 +134,7 @@ tasksdisplay.addEventListener("click", (e) => {
 });
 
 //
-// Filtering List
+// DOM events for Filtering List
 //
 
 const allTasksClick = document.querySelector(".all-tasks-click");

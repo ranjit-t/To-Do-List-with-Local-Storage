@@ -13,3 +13,4 @@ It is a capable of storing the tasks in browser local memory.
 
 - The application has been deployed on netlify
 - This is the url to start using it https://todolist-byranjit.netlify.app/
+  Enjoy the app!
